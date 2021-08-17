@@ -1,3 +1,4 @@
+#coding=utf-8
 import allure
 
 from unittest import TestCase
