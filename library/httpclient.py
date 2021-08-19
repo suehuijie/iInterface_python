@@ -27,6 +27,6 @@ class HttpClient:
             response = self.client.get(url, headers=headers, data=data, json=json, params=params
                                        , timeout=self.timeout, *args, **kwargs)
         response.encoding = 'utf-8'
-        print(f'{response.json()}')
+        print(response.json())
 
         return response
